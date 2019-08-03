@@ -1,0 +1,137 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  background: #777777;
+  width: 960px;
+  font-size: 18px;
+  display: block;
+  margin: auto;
+  /* background file path is to be relative to the css file location, not the index.html location */
+  background: url(../images/gravel.png);
+  background-repeat: repeat;
+}
+
+
+.bodyContainer{
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid black;
+  background: white;
+  color: #777777;
+
+}
+
+#pic{
+  float: left;
+  width: 200px;
+  height: 200px;
+}
+
+/* #description{
+  float: right;
+} */
+
+#masthead {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    border: 1px solid black;
+    width: 100%;
+    height: 90px;
+    margin: 0 0 30px;
+    overflow-y: hidden;
+    color: black;
+    background: #ffffff;
+    vertical-align: middle;
+  }
+
+.mastContainer {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+
+#mainLogo{
+    font-family: Georgia, Times, "Times New Roman", serif;
+    float: left;
+    width: 300px;
+    height: 90px;
+    background: #4aaaa5;
+    color: #777777;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 84px;
+}
+
+#navLinks{
+  width: 240px;
+  float: right;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  vertical-align: middle;
+  background: #ffffff;
+  color: #777777;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 84px;
+}
+
+#bodyHeader{
+  font-family: Georgia, Times, "Times New Roman", serif;
+  float: left;
+  width: 938px;
+  border-bottom: 1px solid black;
+  text-align: left;
+  text-decoration: underline;
+  padding-left: 20px;
+  vertical-align: middle;
+  background: #ffffff;
+  color: #777777;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 40px;
+}
+
+.navlinks:hover{
+  font-weight: bold;
+}
+
+
+
+#URLContact{
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
+}
+
+footer{
+  font-size: 12px;
+    color: #cccccc;
+    text-align: center;
+    background: #666666;
+    /* border: 1px solid black; */
+    width: 960px;
+}
+
+@media (max-width: 980px) {
+  div {background-color: blue;
+      font-size:1.1em;
+  }
+}
+
+@media (max-width: 768px) {
+  div {background-color: green;
+    font-size:1.5em;
+}
+}
+
+@media (max-width: 480px) {
+  div {background-color: orange;
+    font-size:1.7em;
+}
+}
